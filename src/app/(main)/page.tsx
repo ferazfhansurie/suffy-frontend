@@ -1,11 +1,12 @@
 import FeaturedProducts from "@modules/home/components/featured-products"
 import Hero from "@modules/home/components/hero"
+import CompanyIntro from "@modules/home/components/company-intro"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Home",
   description:
-    "Shop all available models only at the ACME. Worldwide Shipping. Secure Payment.",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos! (Home)",
 }
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
     <>
       <Hero />
       <FeaturedProducts />
+      <CompanyIntro />
     </>
   )
 }
